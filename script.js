@@ -6,8 +6,6 @@ function checkEmail() {
     var output = document.getElementById("invio")
 
     // for e if per controllare se la mail è presente
-
-
     var check = false; 
 
     for (var i = 0; i < email.length; i++) {
@@ -35,12 +33,14 @@ function randomDado() {
     var dadoUtente=Math.random(0,5)
 
     if (dadoUtente>dadoPc) {
-
+        dadoPc=20;
         output.innerHTML= "hai vinto!"
         
     } else {
         output.innerHTML= "hai perso"
 
     }
-    
+    console.log(dadoPc)
 }
+
+
