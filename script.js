@@ -2,7 +2,7 @@
 
 function checkEmail() {
     var email= ["gabrisanna.131099@gmail.com" , "mariorossi@gmail.com" , "gatanoesposito099@gmail.com" , "yanguh@gmail.com"]
-    var emailUtente = document.getElementById("email").value;
+    var emailUtente = document.getElementById("email").placeholder;
     var output = document.getElementById("invio")
 
     // for e if per controllare se la mail è presente
