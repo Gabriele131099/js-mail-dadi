@@ -17,9 +17,9 @@ function checkEmail() {
         }
     }
     if (check) {
-        output.innerHTML += 'email corretta';
+        output.innerHTML = 'email corretta';
     } else {
-        output.innerHTML += 'email sbagliatta!';
+        output.innerHTML = 'email sbagliatta!';
     }
 
 }
